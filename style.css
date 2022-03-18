@@ -1,0 +1,234 @@
+.primaryColor {
+    color:#0085CA;
+}
+.secondaryColor {
+    color:#101820;
+}
+.thirdColor {
+    color: #BFC0BF;
+}
+
+.sectionOne {
+    color: #101820;
+}
+.body {
+    background-color: #101820;
+    margin:5vw;
+    font-family: arial;
+}
+.paraOne {
+    font-weight:700;
+    font-size:50px;
+    margin-top: -55px;
+}
+.hOne {
+    font-weight:900;
+    font-size: 80px;
+}
+.lucky {
+    color: #0085CA;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.aboutMe {
+    font-size:25px
+}
+.navBar {
+    display:flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    font-size: 22px;
+
+}
+.thirdItem {
+    padding-left: 140px;
+    padding-right: 75px;
+}
+.secondItem {
+    padding-left: 140px;
+}
+footer {
+    color:#BFC0BF;
+    text-align: center;
+    font-size:20px;
+    position:fixed;
+    bottom: 40px;
+    height: 25px;
+}
+a:link, a:visited {
+    color:#BFC0BF;
+    text-decoration: none;
+}
+a:hover {
+    color:#0085CA !important;
+}
+.firstSection {
+    display:flex;
+    justify-content:space-between;
+}
+.textOne {
+    font-family:Arial,sans-serif;
+}
+.img {
+    box-shadow: 25px 15px #0085CA;
+    margin-left:200px;
+}
+
+.headerProject {
+    font-size:50px;
+    margin-top: 50px;
+
+}
+.carosusel {
+    width: 640px;
+    height: 740px;
+}
+.carousel-item {
+    
+    height:500px;
+    width: 1800px;
+    margin-top: 100px;
+    color:#BFC0BF;
+    background-color:#101820;
+}
+
+
+
+.fishing {
+    font-size:20px;
+    margin-top: 80px;
+    margin-left:160px;
+    color:#BFC0BF
+}
+.growth {
+    color:#BFC0BF;
+}
+.leadership {
+    color:#0085CA;
+    font-size:40px;
+    padding-bottom:-10px;
+    margin-bottom: -100px;
+    padding-left: 150px;
+}
+.fitness {
+    margin-left: 1200px;
+    font-size:75px;
+}
+
+
+.interestOne {
+width:240px;
+ height: 200px;	
+ overflow: hidden;
+ position: relative;
+ color:#0085CA;
+ margin-top:50px;
+ margin-left: 50px;
+}
+.interestOne h3 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 50;
+ line-height: 50px;
+ text-align: left;
+
+ /* Apply animation to this element */	
+ animation: interestOne 6s ease-out;
+}
+/* Move it (define the animation) */
+@keyframes interestOne {
+ 0%   { 
+ transform: translateY(200%); 		
+ }
+ 100% { 
+ transform: translateY(0%); 
+ }
+}
+
+.interestTwo {
+    height: 200px;	
+    overflow: hidden;
+    position: relative;
+    color:#0085CA;
+    margin-bottom: 100px;
+    
+   }
+   .interestTwo h2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 20px;
+    text-align: center;
+   
+    /* Apply animation to this element */	
+    animation: interestTwo 2s ease-out;
+   }
+   /* Move it (define the animation) */
+   @keyframes interestTwo {
+    0%   { 
+    transform: translateX(200%); 		
+    }
+    100% { 
+    transform: translateX(0%); 
+    }
+   }
+   
+   .interestThree {
+    height: 250px;	
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 100px;
+    padding-top: -100px;
+    padding-left: 700px;
+   }
+   .interestThree h4 {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    margin: 0;
+    line-height: 20px;
+    text-align: left;
+   
+    /* Apply animation to this element */	
+    animation: interestThree 3s ease-out;
+   }
+   /* Move it (define the animation) */
+   @keyframes interestThree {
+    0%   { 
+    transform: translateY(100%); 		
+    }
+    100% { 
+    transform: translateY(0%); 
+    }
+   }
+
+   .example2 {
+    height: 250px;	
+    overflow: hidden;
+    position: relative;
+   }
+   .example2 h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: left;
+   
+    /* Apply animation to this element */	
+    animation: example2 1s ease-out;
+   }
+   /* Move it (define the animation) */
+   @keyframes example2 {
+    0%   { 
+    transform: translateY(200%); 		
+    }
+    100% { 
+    transform: translateY(0%); 
+    }
+   }
